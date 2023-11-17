@@ -1,5 +1,7 @@
 header {
     background: #BBBBBB;
+    padding-top: 15px;
+    margin: 0px;
 }
 
 
@@ -7,6 +9,8 @@ header {
     width: 940px;
     position:relative;
     margin: 0 auto;
+    padding-bottom: 5px;
+
 }
 
 nav {
@@ -26,6 +30,12 @@ nav a {
     font-size: 22px;
     text-decoration: none ;
 }
+
+nav a:hover {
+    color:#C78C19;
+    text-decoration: underline;
+}
+
 .produtos {
     width: 860px;
     margin: 0 auto;
@@ -45,6 +55,16 @@ nav a {
     border: 2px solid #000000;
     
 }
+.produtos li:hover {
+    border-color: #C78C19;
+}
+
+.produtos li:active {
+    border-color: #088C17;
+}
+.produtos li:hover h2 {
+    font-size: 26px;
+}
 .imagens {
     width: 89%;
 }
@@ -62,6 +82,14 @@ nav a {
     margin-top: 7px;
 
 }
-.img {
-  
+
+footer {
+    text-align: center;
+    background: url("bg.jpg");
+    padding: 40px 0;
+}
+.copyright {
+    color: white;
+    font-size: 13px;
+    margin-top: 20px 0 0;
 }
